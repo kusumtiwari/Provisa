@@ -17,7 +17,7 @@ function Footer() {
                             width={200}
                             height={200}
                             className='filter brightness-0 invert ' />
-                        <p className='mt-3 truncate-lines w-3/4'>Don't just take our word for it, come see us and let us show you that you've come to the right place.</p>
+                        <p className='mt-3 truncate-lines w-3/4'>Dont just take our word for it, come see us and let us show you that you have come to the right place.</p>
                     </div>
                     <div className='flex flex-col gap-4 text-white my-8 md:mt-0'>
                         <div>

@@ -163,7 +163,7 @@ function Navbar() {
                     )}
                 </div>
                 <Link href="/blogs" className="hover:text-red-500">Blogs</Link>
-                <Link href="/faqs" className="hover:text-red-500">FAQ'S</Link>
+                <Link href="/faqs" className="hover:text-red-500">FAQS</Link>
                 <Link href="/contact" className="hover:text-red-500">Contact Us</Link>
             </div>
         </>

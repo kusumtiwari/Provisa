@@ -242,7 +242,7 @@ export default function Home() {
       {/* Description  */}
       <div className="flex flex-col gap-6 items-center justify-center my-8 w-full mt-12">
         <h1 className="text-primary-textColor font-bold text-2xl uppercase text-center">PROFESSIONAL VISA AND EDUCATION SERVICES</h1>
-        <p className="text-primary-textColor line-height w-[80%] text-center">Professional Visa and Education Services Pvt. Ltd. (Pro-Visa) is a professional visa and educational consultancy authorized by the Ministry of Education (MOE) and offering free education to students interested in studying abroad. Our offices are in Kathmandu and Nepalgunj. We have a Learning Center that is fully equipped with ultra-modern facilities and provides students with our best advisors and tutors for Test Preparation Classes in order to provide better service to our students. We are proud of our students who have been successful in their careers as a result of our counseling and guidance, in addition to our high visa success rate. As a result, we may be Nepal's best education consultancy.</p>
+        <p className="text-primary-textColor line-height w-[80%] text-center">Professional Visa and Education Services Pvt. Ltd. (Pro-Visa) is a professional visa and educational consultancy authorized by the Ministry of Education (MOE) and offering free education to students interested in studying abroad. Our offices are in Kathmandu and Nepalgunj. We have a Learning Center that is fully equipped with ultra-modern facilities and provides students with our best advisors and tutors for Test Preparation Classes in order to provide better service to our students. We are proud of our students who have been successful in their careers as a result of our counseling and guidance, in addition to our high visa success rate. As a result, we may be Nepals best education consultancy.</p>
       </div>
 
       <div className="bg-[url('/images/heroimg2.webp')] bg-pink-300 gap-10  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 min-h-[25vh] w-full py-16 mt-4">
@@ -355,7 +355,7 @@ export default function Home() {
 
       {/* students testimonial  */}
       <div className="bg-primary-textColor px-6 sm:px-12 md:px-20 xl:px-32 py-8 md:py-16 my-16 md:my-24 relative min-h-[55vh]">
-        <h1 className="font-bold text-3xl text-white mb-10 text-center">Student's Testimonials</h1>
+        <h1 className="font-bold text-3xl text-white mb-10 text-center">Students Testimonials</h1>
 
         <AliceCarousel
           disableDotsControls
@@ -542,7 +542,7 @@ export default function Home() {
             </div>
           )}
           items={myTopUnis.map((item, index) => (
-            <div className="mx-4 flex justify-center items-center mt-auto">
+            <div className="mx-4 flex justify-center items-center mt-auto" key={index}>
               <Image
                 src={item.image}
                 alt={`uni- ${index}`}
